@@ -32,7 +32,7 @@ class SettingsAddActivity : AppCompatActivity() {
         btnSettingsCancel.setOnClickListener() { navigateToSettingsCancel() }
         swNumDig.setOnClickListener(){navigateToSetNumbersDigitals()        }
     }
-
+//xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
     private fun navigateToSetNumbersDigitals() {
         if (swNumDig.isChecked) {
             swNumDigOn = true

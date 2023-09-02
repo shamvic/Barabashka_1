@@ -174,7 +174,7 @@ class AdditionActivity : AppCompatActivity() {
 
                 //Toast.makeText(applicationContext, "¡Hecho!", Toast.LENGTH_LONG).show()
                 speakSome="Правильно!!!"
-                speaking(speakSome)
+                speech(speakSome)
 
                 Toast.makeText(applicationContext,"¡Correcto!",Toast.LENGTH_LONG).show()
 
@@ -186,7 +186,7 @@ class AdditionActivity : AppCompatActivity() {
             else {
                 //Toast.makeText(applicationContext, "¡NO es Correcto!", Toast.LENGTH_LONG).show()
                 speakSome="Не правильно!!!"
-                speaking(speakSome)
+                speech(speakSome)
                 tvQualification.text="X"
                 tvQualification.setTextColor(ContextCompat.getColor(this, R.color.red_700))
 
@@ -396,7 +396,7 @@ class AdditionActivity : AppCompatActivity() {
                     Log.d(tag,"resutCorSum=${resultCorSum.toString()}")
                     Log.d(tag,"tvCorrectSolution=$resultCorSum")
 
-                    speaking("Ваш ответ...")
+                    speech("Ваш ответ...")
 
 
                 }
